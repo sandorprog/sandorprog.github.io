@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+html{
+    background-color: rgb(236, 226, 226);
+}
+
+body{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.navbar-brand{
+    font-size: 35px;
+    font-family: 'Sriracha', cursive;
+
+}
+
+.nav-head{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+li{
+    font-size: 30px;
+    list-style: none;
+    display: inline;
+}
+h1, h2{
+    text-align: center;
+    /*margin: 10px 0;*/
+}
+
+h1{
+    font-size: 1.5rem;
+}
+ul{
+    margin-bottom: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.icon-box{
+    display:block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 30px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+
+  }
+a{
+    text-decoration: none;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.card{
+    box-shadow: 5px 5px 5px darkcyan;
+}
+
+.btn{
+    margin: 0 auto;
+    display: block;
+}
+
+.box3{
+    text-align: center;
+    display: inline;
+}
+
+
+footer{
+    border-top: 1px solid rgb(228, 204, 204);
+    left: 0;
+    bottom: 0;
+    display: block;
+}
+
+.order{
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+option{
+    width: 200px;
+}
