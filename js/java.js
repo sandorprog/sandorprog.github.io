@@ -9,8 +9,6 @@ function calcAmaunt() {
 }
 
 function calcBuy() {
-
-
     let n3 = document.querySelector("input[name='persName']");
     let n4 = document.querySelector("input[name='persAddres']");
     alert("Szállítási adatok Név: " + n3.value + " Cím: " + n4.value + " Fzetendő:   Ft"

@@ -15,7 +15,7 @@
 <body>
     <div class="nav-head">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand mx-3" href="index.html">Hamburger City</a>
+            <a class="navbar-brand" href="index.html">Hamburger City</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -35,8 +35,12 @@
             </div>
     </div>
     </nav>
-
-    <div class="jumbotron jumbotron-fluid">
+    <a class="weatherwidget-io" href="https://forecast7.com/hu/46d5720d65/oroshaza/" data-label_1="OROSHÁZA"
+        data-label_2="WEATHER" data-mode="Current" data-theme="beige">OROSHÁZA Időjárás</a>
+    <script>
+        !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
+    </script>
+    <div class="jumbotron jumbotron-fluid bg-ligh">
         <div class="container">
             <h1 class="display-4">Welcome to the site</h1>
             <p class="lead">There are many variations of passages of Lorem Ipsum available, but the majority have
@@ -79,7 +83,7 @@
         </div>
     </div>
 
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid bg-white">
         <div class="container">
             <p class="lead">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece
                 of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
