@@ -29,6 +29,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="order.html">Rendelés</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="basket.html">Kosár</a>
+                    </li>
                 </ul>
             </div>
     </div>
@@ -70,9 +73,17 @@
         </select>
 
         <div class="form-group mt-3">
-            <label for="number">Mennyiség</label>
-            <input type="number" class="form-control" id="number" name="order" placeholder="">
+            <label for="">Mennyiség</label>
+            <input class="form-control" id="number" name="order" placeholder="">
         </div>
+
+        <div class="form-group mt-3">
+            <label for="number">Feltét</label>
+            <select class="form-control" id="topInput" name="topInput" placeholder=""></select>
+        </div>
+
+
+
         <button onclick="calcAmaunt()" type="button" class="btn btn-primary mt-2 mb-3">Tovább</button>
         <div class="box3 form-group mt-3">
             Fizetendő: <span class="show"> 0 </span>Ft
